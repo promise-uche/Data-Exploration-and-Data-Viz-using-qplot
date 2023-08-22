@@ -63,13 +63,5 @@ table(mpg$fl)
 f=qplot(fl, data=mpg, geom="bar", fill=fl)
 ggsave("fuel_type.png", plot = f, width = 6, height = 4)
 
-#Vehicle Class
-table(mpg$class)
- 
-qplot(class, data=mpg, geom="bar", fill=class)
 
-#Displacement vs highway efficiency
-dp=ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy), color='red')
-ggsave("Disp_vs_Eff.png", plot = dp, width = 6, height = 4)
 
