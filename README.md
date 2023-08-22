@@ -65,7 +65,7 @@ f=qplot(fl, data=mpg, geom="bar", fill=fl)
 ggsave("fuel_type.png", plot = f, width = 6, height = 4)
 ```
 **Graph  of  Fuel type**
-![fuel_type](fuel_typefuel_type.png)
+![fuel_type](fuel_type.png)
 
 
 
