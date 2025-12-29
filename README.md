@@ -11,6 +11,7 @@ mpg
 #Data Description
 str(mpg) #structure
 #new
+#Features
 
 #Number of rows or observations or records
 nrow(mpg)
